@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration</title>
+</head>
+
+<form>
+   <fieldset>
+      <legend><b>Регистрация</b></legend>
+      <div>
+         <img src="form_img.png" alt="png" width="200" height="250">
+      </div>
+
+      <div>
+         <label>ФИО<input type="text" name="name" required></label>
+      </div>
+      <div>
+         <span>Пол</span>
+         <br>
+         <input type="radio" name="sex" value="male">мужской
+         <br>
+         <input type="radio" name="sex" value="female">женский
+      </div>
+      <div>
+         <label>E-mail<input type="email" name="email" required></label>
+         <br>
+         <label>пароль<input type="password" name="password" required></label>
+         <br>
+      </div>
+      <div>
+         <select name="country">
+            <option hidden>Выберите страну проживания</option>
+            <option value="russia">Россия</option>
+            <option value="ukraine">Украина</option>
+            <option value="belarusian">Беларусь</option>
+         </select>
+      </div>
+   </fieldset>
+
+   <div>
+      <h1>Опрос</h1><br>
+      <span><b>Вопрос 1.</b>
+         Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта:
+         высококачественный прототип будущего проекта напрямую зависит от стандартных подходов.<br> Значимость этих
+         проблем настолько очевидна, что современная методология разработки влечет за собой процесс внедрения и
+         модернизации прогресса профессионального сообщества! Противоположная точка зрения подразумевает, что
+         элементы политического процесса указаны как претенденты на роль ключевых факторов.</span>
+      <br>
+      <input type="radio" name="answer" value="Ответ 1"><b>Ответ 1</b>
+      <br>
+      <input type="radio" name="answer" value="Ответ 2"><b>Ответ 2</b>
+      <br>
+      <input type="radio" name="answer" value="Ответ 3"><b>Ответ 3</b>
+   </div>
+
+   <div>
+      <br>
+      <span><b>Вопрос 2.</b>
+         Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний,
+         из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы – и вы
+         наслаждетесь очередным бредошедевром.</span>
+      <br>
+      <input type="radio" name="answer" value="Ответ 1"><b>Ответ 1</b>
+      <br>
+      <input type="radio" name="answer" value="Ответ 1"><b>Ответ 2</b>
+      <br>
+      <input type="radio" name="answer" value="Ответ 1"><b>Ответ 3</b>
+      <br>
+   </div>
+   <div>
+      <br>
+      <span><b>Вопрос 3.</b>
+         Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний,
+         из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы – и вы
+         наслаждетесь очередным бредошедевром.</span>
+      <br>
+      <input type="radio" name="answer" value="Ответ 1"><b>Ответ 1</b>
+      <br>
+      <input type="radio" name="answer" value="Ответ 1"><b>Ответ 2</b>
+      <br>
+      <input type="radio" name="answer" value="Ответ 1"><b>Ответ 3</b>
+   </div>
+
+   <div>
+      <h1>Пожелание клиента</h1>
+      <textarea name="message" rows="10" cols="55" wrap="soft">Текст</textarea>
+   </div>
+
+   <div>
+      <button type="submit">отправить форму</button>
+      <br>
+      <button type="submit">сбросить форму</button>
+   </div>
+</form>
+
+</html>
